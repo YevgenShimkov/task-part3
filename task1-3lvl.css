@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+table {
+    margin: 0 auto;
+    width: 90%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+}
+
+tbody td, thead th  {
+    text-align: left;
+    border-collapse: collapse;
+    border: 3px solid purple;
+}
+
+table tbody tr:hover {
+    background-color: rgb(233, 182, 235);
+}
+
+table thead th:hover {
+    background-color: rgb(233, 182, 235);
+}
